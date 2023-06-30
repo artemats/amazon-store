@@ -1,0 +1,24 @@
+.cart{
+		&-marker{
+			display: inline-block;
+			border-radius: 50%;
+			background-color: #f00;
+			padding: 0 5px;
+			font-size: .8rem;
+			font-weight: bold;
+			color: #fff;
+			line-height: 1.8em;
+			min-width: 24px;
+			text-align: center;
+			margin-left: 5px;
+		}
+}
+
+.toast{
+	&-custom{
+		position: fixed;
+		top: 30px;
+		right: 30px;
+		z-index: 9;
+	}
+}

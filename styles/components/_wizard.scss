@@ -1,0 +1,14 @@
+.wizard{
+	display: flex;
+	align-items: center;
+		&-item{
+			flex: 1;
+			position: relative;
+			text-align: center;
+			border-bottom: 1px currentColor solid;
+			padding: 1rem;
+				&.is-active{
+					color: #0d6efd;
+				}
+		}
+}
